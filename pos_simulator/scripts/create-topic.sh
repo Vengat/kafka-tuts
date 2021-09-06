@@ -1,0 +1,1 @@
+sh kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 3 --partitions log4j2.xml5 --topic kafkalog4j2.xml_producer_topic  --config min.insync.replicas=2

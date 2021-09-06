@@ -11,3 +11,4 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 kafka_producer_transaction/.idea/
 kafka_producer_transaction/kafka_producer_transaction.iml
+*/.idea/*
