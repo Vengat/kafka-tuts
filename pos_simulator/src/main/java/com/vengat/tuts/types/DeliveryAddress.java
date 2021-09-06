@@ -10,14 +10,14 @@ import org.apache.avro.specific.SpecificData;
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  private static final long serialVersionUID = -5628348551213908391L;
+  private static final long serialVersionUID = 99982944294983742L;
   public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"DeliveryAddress\",\"namespace\":\"com.vengat.tuts.types\",\"fields\":[{\"name\":\"AddressLine\",\"type\":[\"null\",\"string\"]},{\"name\":\"City\",\"type\":[\"null\",\"string\"]},{\"name\":\"State\",\"type\":[\"null\",\"string\"]},{\"name\":\"PinCode\",\"type\":[\"null\",\"string\"]},{\"name\":\"ContactNumber\",\"type\":[\"null\",\"string\"]}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
-  @Deprecated public CharSequence AddressLine;
-  @Deprecated public CharSequence City;
-  @Deprecated public CharSequence State;
-  @Deprecated public CharSequence PinCode;
-  @Deprecated public CharSequence ContactNumber;
+  @Deprecated public java.lang.CharSequence AddressLine;
+  @Deprecated public java.lang.CharSequence City;
+  @Deprecated public java.lang.CharSequence State;
+  @Deprecated public java.lang.CharSequence PinCode;
+  @Deprecated public java.lang.CharSequence ContactNumber;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -34,7 +34,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * @param PinCode The new value for PinCode
    * @param ContactNumber The new value for ContactNumber
    */
-  public DeliveryAddress(CharSequence AddressLine, CharSequence City, CharSequence State, CharSequence PinCode, CharSequence ContactNumber) {
+  public DeliveryAddress(java.lang.CharSequence AddressLine, java.lang.CharSequence City, java.lang.CharSequence State, java.lang.CharSequence PinCode, java.lang.CharSequence ContactNumber) {
     this.AddressLine = AddressLine;
     this.City = City;
     this.State = State;
@@ -44,7 +44,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
 
   public org.apache.avro.Schema getSchema() { return SCHEMA$; }
   // Used by DatumWriter.  Applications should not call.
-  public Object get(int field$) {
+  public java.lang.Object get(int field$) {
     switch (field$) {
     case 0: return AddressLine;
     case 1: return City;
@@ -57,13 +57,13 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
 
   // Used by DatumReader.  Applications should not call.
   @SuppressWarnings(value="unchecked")
-  public void put(int field$, Object value$) {
+  public void put(int field$, java.lang.Object value$) {
     switch (field$) {
-    case 0: AddressLine = (CharSequence)value$; break;
-    case 1: City = (CharSequence)value$; break;
-    case 2: State = (CharSequence)value$; break;
-    case 3: PinCode = (CharSequence)value$; break;
-    case 4: ContactNumber = (CharSequence)value$; break;
+    case 0: AddressLine = (java.lang.CharSequence)value$; break;
+    case 1: City = (java.lang.CharSequence)value$; break;
+    case 2: State = (java.lang.CharSequence)value$; break;
+    case 3: PinCode = (java.lang.CharSequence)value$; break;
+    case 4: ContactNumber = (java.lang.CharSequence)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -72,7 +72,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * Gets the value of the 'AddressLine' field.
    * @return The value of the 'AddressLine' field.
    */
-  public CharSequence getAddressLine() {
+  public java.lang.CharSequence getAddressLine() {
     return AddressLine;
   }
 
@@ -80,7 +80,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'AddressLine' field.
    * @param value the value to set.
    */
-  public void setAddressLine(CharSequence value) {
+  public void setAddressLine(java.lang.CharSequence value) {
     this.AddressLine = value;
   }
 
@@ -88,7 +88,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * Gets the value of the 'City' field.
    * @return The value of the 'City' field.
    */
-  public CharSequence getCity() {
+  public java.lang.CharSequence getCity() {
     return City;
   }
 
@@ -96,7 +96,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'City' field.
    * @param value the value to set.
    */
-  public void setCity(CharSequence value) {
+  public void setCity(java.lang.CharSequence value) {
     this.City = value;
   }
 
@@ -104,7 +104,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * Gets the value of the 'State' field.
    * @return The value of the 'State' field.
    */
-  public CharSequence getState() {
+  public java.lang.CharSequence getState() {
     return State;
   }
 
@@ -112,7 +112,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'State' field.
    * @param value the value to set.
    */
-  public void setState(CharSequence value) {
+  public void setState(java.lang.CharSequence value) {
     this.State = value;
   }
 
@@ -120,7 +120,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * Gets the value of the 'PinCode' field.
    * @return The value of the 'PinCode' field.
    */
-  public CharSequence getPinCode() {
+  public java.lang.CharSequence getPinCode() {
     return PinCode;
   }
 
@@ -128,7 +128,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'PinCode' field.
    * @param value the value to set.
    */
-  public void setPinCode(CharSequence value) {
+  public void setPinCode(java.lang.CharSequence value) {
     this.PinCode = value;
   }
 
@@ -136,7 +136,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * Gets the value of the 'ContactNumber' field.
    * @return The value of the 'ContactNumber' field.
    */
-  public CharSequence getContactNumber() {
+  public java.lang.CharSequence getContactNumber() {
     return ContactNumber;
   }
 
@@ -144,7 +144,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'ContactNumber' field.
    * @param value the value to set.
    */
-  public void setContactNumber(CharSequence value) {
+  public void setContactNumber(java.lang.CharSequence value) {
     this.ContactNumber = value;
   }
 
@@ -152,8 +152,8 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * Creates a new DeliveryAddress RecordBuilder.
    * @return A new DeliveryAddress RecordBuilder
    */
-  public static Builder newBuilder() {
-    return new Builder();
+  public static com.vengat.tuts.types.DeliveryAddress.Builder newBuilder() {
+    return new com.vengat.tuts.types.DeliveryAddress.Builder();
   }
 
   /**
@@ -161,8 +161,8 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * @param other The existing builder to copy.
    * @return A new DeliveryAddress RecordBuilder
    */
-  public static Builder newBuilder(Builder other) {
-    return new Builder(other);
+  public static com.vengat.tuts.types.DeliveryAddress.Builder newBuilder(com.vengat.tuts.types.DeliveryAddress.Builder other) {
+    return new com.vengat.tuts.types.DeliveryAddress.Builder(other);
   }
 
   /**
@@ -170,8 +170,8 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
    * @param other The existing instance to copy.
    * @return A new DeliveryAddress RecordBuilder
    */
-  public static Builder newBuilder(DeliveryAddress other) {
-    return new Builder(other);
+  public static com.vengat.tuts.types.DeliveryAddress.Builder newBuilder(com.vengat.tuts.types.DeliveryAddress other) {
+    return new com.vengat.tuts.types.DeliveryAddress.Builder(other);
   }
 
   /**
@@ -180,11 +180,11 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
   public static class Builder extends org.apache.avro.specific.SpecificRecordBuilderBase<DeliveryAddress>
     implements org.apache.avro.data.RecordBuilder<DeliveryAddress> {
 
-    private CharSequence AddressLine;
-    private CharSequence City;
-    private CharSequence State;
-    private CharSequence PinCode;
-    private CharSequence ContactNumber;
+    private java.lang.CharSequence AddressLine;
+    private java.lang.CharSequence City;
+    private java.lang.CharSequence State;
+    private java.lang.CharSequence PinCode;
+    private java.lang.CharSequence ContactNumber;
 
     /** Creates a new Builder */
     private Builder() {
@@ -195,7 +195,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
      * Creates a Builder by copying an existing Builder.
      * @param other The existing Builder to copy.
      */
-    private Builder(Builder other) {
+    private Builder(com.vengat.tuts.types.DeliveryAddress.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.AddressLine)) {
         this.AddressLine = data().deepCopy(fields()[0].schema(), other.AddressLine);
@@ -223,7 +223,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
      * Creates a Builder by copying an existing DeliveryAddress instance
      * @param other The existing instance to copy.
      */
-    private Builder(DeliveryAddress other) {
+    private Builder(com.vengat.tuts.types.DeliveryAddress other) {
             super(SCHEMA$);
       if (isValidValue(fields()[0], other.AddressLine)) {
         this.AddressLine = data().deepCopy(fields()[0].schema(), other.AddressLine);
@@ -251,7 +251,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * Gets the value of the 'AddressLine' field.
       * @return The value.
       */
-    public CharSequence getAddressLine() {
+    public java.lang.CharSequence getAddressLine() {
       return AddressLine;
     }
 
@@ -260,7 +260,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * @param value The value of 'AddressLine'.
       * @return This builder.
       */
-    public Builder setAddressLine(CharSequence value) {
+    public com.vengat.tuts.types.DeliveryAddress.Builder setAddressLine(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.AddressLine = value;
       fieldSetFlags()[0] = true;
@@ -280,7 +280,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * Clears the value of the 'AddressLine' field.
       * @return This builder.
       */
-    public Builder clearAddressLine() {
+    public com.vengat.tuts.types.DeliveryAddress.Builder clearAddressLine() {
       AddressLine = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -290,7 +290,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * Gets the value of the 'City' field.
       * @return The value.
       */
-    public CharSequence getCity() {
+    public java.lang.CharSequence getCity() {
       return City;
     }
 
@@ -299,7 +299,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * @param value The value of 'City'.
       * @return This builder.
       */
-    public Builder setCity(CharSequence value) {
+    public com.vengat.tuts.types.DeliveryAddress.Builder setCity(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.City = value;
       fieldSetFlags()[1] = true;
@@ -319,7 +319,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * Clears the value of the 'City' field.
       * @return This builder.
       */
-    public Builder clearCity() {
+    public com.vengat.tuts.types.DeliveryAddress.Builder clearCity() {
       City = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -329,7 +329,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * Gets the value of the 'State' field.
       * @return The value.
       */
-    public CharSequence getState() {
+    public java.lang.CharSequence getState() {
       return State;
     }
 
@@ -338,7 +338,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * @param value The value of 'State'.
       * @return This builder.
       */
-    public Builder setState(CharSequence value) {
+    public com.vengat.tuts.types.DeliveryAddress.Builder setState(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.State = value;
       fieldSetFlags()[2] = true;
@@ -358,7 +358,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * Clears the value of the 'State' field.
       * @return This builder.
       */
-    public Builder clearState() {
+    public com.vengat.tuts.types.DeliveryAddress.Builder clearState() {
       State = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -368,7 +368,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * Gets the value of the 'PinCode' field.
       * @return The value.
       */
-    public CharSequence getPinCode() {
+    public java.lang.CharSequence getPinCode() {
       return PinCode;
     }
 
@@ -377,7 +377,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * @param value The value of 'PinCode'.
       * @return This builder.
       */
-    public Builder setPinCode(CharSequence value) {
+    public com.vengat.tuts.types.DeliveryAddress.Builder setPinCode(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.PinCode = value;
       fieldSetFlags()[3] = true;
@@ -397,7 +397,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * Clears the value of the 'PinCode' field.
       * @return This builder.
       */
-    public Builder clearPinCode() {
+    public com.vengat.tuts.types.DeliveryAddress.Builder clearPinCode() {
       PinCode = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -407,7 +407,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * Gets the value of the 'ContactNumber' field.
       * @return The value.
       */
-    public CharSequence getContactNumber() {
+    public java.lang.CharSequence getContactNumber() {
       return ContactNumber;
     }
 
@@ -416,7 +416,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * @param value The value of 'ContactNumber'.
       * @return This builder.
       */
-    public Builder setContactNumber(CharSequence value) {
+    public com.vengat.tuts.types.DeliveryAddress.Builder setContactNumber(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.ContactNumber = value;
       fieldSetFlags()[4] = true;
@@ -436,7 +436,7 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
       * Clears the value of the 'ContactNumber' field.
       * @return This builder.
       */
-    public Builder clearContactNumber() {
+    public com.vengat.tuts.types.DeliveryAddress.Builder clearContactNumber() {
       ContactNumber = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -446,11 +446,11 @@ public class DeliveryAddress extends org.apache.avro.specific.SpecificRecordBase
     public DeliveryAddress build() {
       try {
         DeliveryAddress record = new DeliveryAddress();
-        record.AddressLine = fieldSetFlags()[0] ? this.AddressLine : (CharSequence) defaultValue(fields()[0]);
-        record.City = fieldSetFlags()[1] ? this.City : (CharSequence) defaultValue(fields()[1]);
-        record.State = fieldSetFlags()[2] ? this.State : (CharSequence) defaultValue(fields()[2]);
-        record.PinCode = fieldSetFlags()[3] ? this.PinCode : (CharSequence) defaultValue(fields()[3]);
-        record.ContactNumber = fieldSetFlags()[4] ? this.ContactNumber : (CharSequence) defaultValue(fields()[4]);
+        record.AddressLine = fieldSetFlags()[0] ? this.AddressLine : (java.lang.CharSequence) defaultValue(fields()[0]);
+        record.City = fieldSetFlags()[1] ? this.City : (java.lang.CharSequence) defaultValue(fields()[1]);
+        record.State = fieldSetFlags()[2] ? this.State : (java.lang.CharSequence) defaultValue(fields()[2]);
+        record.PinCode = fieldSetFlags()[3] ? this.PinCode : (java.lang.CharSequence) defaultValue(fields()[3]);
+        record.ContactNumber = fieldSetFlags()[4] ? this.ContactNumber : (java.lang.CharSequence) defaultValue(fields()[4]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

@@ -1,5 +1,5 @@
 {
-  "namespace": "guru.learningjournal.kafka.examples.types",
+  "namespace": "com.vengat.tuts.types",
   "type": "record",
   "name": "PosInvoice",
   "fields": [

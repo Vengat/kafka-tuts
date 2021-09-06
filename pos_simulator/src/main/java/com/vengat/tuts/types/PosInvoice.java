@@ -10,24 +10,24 @@ import org.apache.avro.specific.SpecificData;
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  private static final long serialVersionUID = -2743919655764826879L;
+  private static final long serialVersionUID = 7692508886476638928L;
   public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"PosInvoice\",\"namespace\":\"com.vengat.tuts.types\",\"fields\":[{\"name\":\"InvoiceNumber\",\"type\":[\"null\",\"string\"]},{\"name\":\"CreatedTime\",\"type\":[\"null\",\"long\"]},{\"name\":\"CustomerCardNo\",\"type\":[\"null\",\"double\"]},{\"name\":\"TotalAmount\",\"type\":[\"null\",\"double\"]},{\"name\":\"NumberOfItems\",\"type\":[\"null\",\"int\"]},{\"name\":\"PaymentMethod\",\"type\":[\"null\",\"string\"]},{\"name\":\"TaxableAmount\",\"type\":[\"null\",\"double\"]},{\"name\":\"CGST\",\"type\":[\"null\",\"double\"]},{\"name\":\"SGST\",\"type\":[\"null\",\"double\"]},{\"name\":\"CESS\",\"type\":[\"null\",\"double\"]},{\"name\":\"StoreID\",\"type\":[\"null\",\"string\"]},{\"name\":\"PosID\",\"type\":[\"null\",\"string\"]},{\"name\":\"CashierID\",\"type\":[\"null\",\"string\"]},{\"name\":\"CustomerType\",\"type\":[\"null\",\"string\"]},{\"name\":\"DeliveryType\",\"type\":[\"null\",\"string\"]},{\"name\":\"DeliveryAddress\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"DeliveryAddress\",\"fields\":[{\"name\":\"AddressLine\",\"type\":[\"null\",\"string\"]},{\"name\":\"City\",\"type\":[\"null\",\"string\"]},{\"name\":\"State\",\"type\":[\"null\",\"string\"]},{\"name\":\"PinCode\",\"type\":[\"null\",\"string\"]},{\"name\":\"ContactNumber\",\"type\":[\"null\",\"string\"]}]}]},{\"name\":\"InvoiceLineItems\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"LineItem\",\"fields\":[{\"name\":\"ItemCode\",\"type\":[\"null\",\"string\"]},{\"name\":\"ItemDescription\",\"type\":[\"null\",\"string\"]},{\"name\":\"ItemPrice\",\"type\":[\"null\",\"double\"]},{\"name\":\"ItemQty\",\"type\":[\"null\",\"int\"]},{\"name\":\"TotalValue\",\"type\":[\"null\",\"double\"]}]}}}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
-  @Deprecated public CharSequence InvoiceNumber;
-  @Deprecated public Long CreatedTime;
-  @Deprecated public Double CustomerCardNo;
-  @Deprecated public Double TotalAmount;
-  @Deprecated public Integer NumberOfItems;
-  @Deprecated public CharSequence PaymentMethod;
-  @Deprecated public Double TaxableAmount;
-  @Deprecated public Double CGST;
-  @Deprecated public Double SGST;
-  @Deprecated public Double CESS;
-  @Deprecated public CharSequence StoreID;
-  @Deprecated public CharSequence PosID;
-  @Deprecated public CharSequence CashierID;
-  @Deprecated public CharSequence CustomerType;
-  @Deprecated public CharSequence DeliveryType;
+  @Deprecated public java.lang.CharSequence InvoiceNumber;
+  @Deprecated public java.lang.Long CreatedTime;
+  @Deprecated public java.lang.Double CustomerCardNo;
+  @Deprecated public java.lang.Double TotalAmount;
+  @Deprecated public java.lang.Integer NumberOfItems;
+  @Deprecated public java.lang.CharSequence PaymentMethod;
+  @Deprecated public java.lang.Double TaxableAmount;
+  @Deprecated public java.lang.Double CGST;
+  @Deprecated public java.lang.Double SGST;
+  @Deprecated public java.lang.Double CESS;
+  @Deprecated public java.lang.CharSequence StoreID;
+  @Deprecated public java.lang.CharSequence PosID;
+  @Deprecated public java.lang.CharSequence CashierID;
+  @Deprecated public java.lang.CharSequence CustomerType;
+  @Deprecated public java.lang.CharSequence DeliveryType;
   @Deprecated public com.vengat.tuts.types.DeliveryAddress DeliveryAddress;
   @Deprecated public java.util.List<com.vengat.tuts.types.LineItem> InvoiceLineItems;
 
@@ -58,7 +58,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * @param DeliveryAddress The new value for DeliveryAddress
    * @param InvoiceLineItems The new value for InvoiceLineItems
    */
-  public PosInvoice(CharSequence InvoiceNumber, Long CreatedTime, Double CustomerCardNo, Double TotalAmount, Integer NumberOfItems, CharSequence PaymentMethod, Double TaxableAmount, Double CGST, Double SGST, Double CESS, CharSequence StoreID, CharSequence PosID, CharSequence CashierID, CharSequence CustomerType, CharSequence DeliveryType, com.vengat.tuts.types.DeliveryAddress DeliveryAddress, java.util.List<com.vengat.tuts.types.LineItem> InvoiceLineItems) {
+  public PosInvoice(java.lang.CharSequence InvoiceNumber, java.lang.Long CreatedTime, java.lang.Double CustomerCardNo, java.lang.Double TotalAmount, java.lang.Integer NumberOfItems, java.lang.CharSequence PaymentMethod, java.lang.Double TaxableAmount, java.lang.Double CGST, java.lang.Double SGST, java.lang.Double CESS, java.lang.CharSequence StoreID, java.lang.CharSequence PosID, java.lang.CharSequence CashierID, java.lang.CharSequence CustomerType, java.lang.CharSequence DeliveryType, com.vengat.tuts.types.DeliveryAddress DeliveryAddress, java.util.List<com.vengat.tuts.types.LineItem> InvoiceLineItems) {
     this.InvoiceNumber = InvoiceNumber;
     this.CreatedTime = CreatedTime;
     this.CustomerCardNo = CustomerCardNo;
@@ -80,7 +80,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
 
   public org.apache.avro.Schema getSchema() { return SCHEMA$; }
   // Used by DatumWriter.  Applications should not call.
-  public Object get(int field$) {
+  public java.lang.Object get(int field$) {
     switch (field$) {
     case 0: return InvoiceNumber;
     case 1: return CreatedTime;
@@ -105,23 +105,23 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
 
   // Used by DatumReader.  Applications should not call.
   @SuppressWarnings(value="unchecked")
-  public void put(int field$, Object value$) {
+  public void put(int field$, java.lang.Object value$) {
     switch (field$) {
-    case 0: InvoiceNumber = (CharSequence)value$; break;
-    case 1: CreatedTime = (Long)value$; break;
-    case 2: CustomerCardNo = (Double)value$; break;
-    case 3: TotalAmount = (Double)value$; break;
-    case 4: NumberOfItems = (Integer)value$; break;
-    case 5: PaymentMethod = (CharSequence)value$; break;
-    case 6: TaxableAmount = (Double)value$; break;
-    case 7: CGST = (Double)value$; break;
-    case 8: SGST = (Double)value$; break;
-    case 9: CESS = (Double)value$; break;
-    case 10: StoreID = (CharSequence)value$; break;
-    case 11: PosID = (CharSequence)value$; break;
-    case 12: CashierID = (CharSequence)value$; break;
-    case 13: CustomerType = (CharSequence)value$; break;
-    case 14: DeliveryType = (CharSequence)value$; break;
+    case 0: InvoiceNumber = (java.lang.CharSequence)value$; break;
+    case 1: CreatedTime = (java.lang.Long)value$; break;
+    case 2: CustomerCardNo = (java.lang.Double)value$; break;
+    case 3: TotalAmount = (java.lang.Double)value$; break;
+    case 4: NumberOfItems = (java.lang.Integer)value$; break;
+    case 5: PaymentMethod = (java.lang.CharSequence)value$; break;
+    case 6: TaxableAmount = (java.lang.Double)value$; break;
+    case 7: CGST = (java.lang.Double)value$; break;
+    case 8: SGST = (java.lang.Double)value$; break;
+    case 9: CESS = (java.lang.Double)value$; break;
+    case 10: StoreID = (java.lang.CharSequence)value$; break;
+    case 11: PosID = (java.lang.CharSequence)value$; break;
+    case 12: CashierID = (java.lang.CharSequence)value$; break;
+    case 13: CustomerType = (java.lang.CharSequence)value$; break;
+    case 14: DeliveryType = (java.lang.CharSequence)value$; break;
     case 15: DeliveryAddress = (com.vengat.tuts.types.DeliveryAddress)value$; break;
     case 16: InvoiceLineItems = (java.util.List<com.vengat.tuts.types.LineItem>)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
@@ -132,7 +132,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'InvoiceNumber' field.
    * @return The value of the 'InvoiceNumber' field.
    */
-  public CharSequence getInvoiceNumber() {
+  public java.lang.CharSequence getInvoiceNumber() {
     return InvoiceNumber;
   }
 
@@ -140,7 +140,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'InvoiceNumber' field.
    * @param value the value to set.
    */
-  public void setInvoiceNumber(CharSequence value) {
+  public void setInvoiceNumber(java.lang.CharSequence value) {
     this.InvoiceNumber = value;
   }
 
@@ -148,7 +148,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'CreatedTime' field.
    * @return The value of the 'CreatedTime' field.
    */
-  public Long getCreatedTime() {
+  public java.lang.Long getCreatedTime() {
     return CreatedTime;
   }
 
@@ -156,7 +156,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'CreatedTime' field.
    * @param value the value to set.
    */
-  public void setCreatedTime(Long value) {
+  public void setCreatedTime(java.lang.Long value) {
     this.CreatedTime = value;
   }
 
@@ -164,7 +164,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'CustomerCardNo' field.
    * @return The value of the 'CustomerCardNo' field.
    */
-  public Double getCustomerCardNo() {
+  public java.lang.Double getCustomerCardNo() {
     return CustomerCardNo;
   }
 
@@ -172,7 +172,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'CustomerCardNo' field.
    * @param value the value to set.
    */
-  public void setCustomerCardNo(Double value) {
+  public void setCustomerCardNo(java.lang.Double value) {
     this.CustomerCardNo = value;
   }
 
@@ -180,7 +180,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'TotalAmount' field.
    * @return The value of the 'TotalAmount' field.
    */
-  public Double getTotalAmount() {
+  public java.lang.Double getTotalAmount() {
     return TotalAmount;
   }
 
@@ -188,7 +188,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'TotalAmount' field.
    * @param value the value to set.
    */
-  public void setTotalAmount(Double value) {
+  public void setTotalAmount(java.lang.Double value) {
     this.TotalAmount = value;
   }
 
@@ -196,7 +196,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'NumberOfItems' field.
    * @return The value of the 'NumberOfItems' field.
    */
-  public Integer getNumberOfItems() {
+  public java.lang.Integer getNumberOfItems() {
     return NumberOfItems;
   }
 
@@ -204,7 +204,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'NumberOfItems' field.
    * @param value the value to set.
    */
-  public void setNumberOfItems(Integer value) {
+  public void setNumberOfItems(java.lang.Integer value) {
     this.NumberOfItems = value;
   }
 
@@ -212,7 +212,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'PaymentMethod' field.
    * @return The value of the 'PaymentMethod' field.
    */
-  public CharSequence getPaymentMethod() {
+  public java.lang.CharSequence getPaymentMethod() {
     return PaymentMethod;
   }
 
@@ -220,7 +220,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'PaymentMethod' field.
    * @param value the value to set.
    */
-  public void setPaymentMethod(CharSequence value) {
+  public void setPaymentMethod(java.lang.CharSequence value) {
     this.PaymentMethod = value;
   }
 
@@ -228,7 +228,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'TaxableAmount' field.
    * @return The value of the 'TaxableAmount' field.
    */
-  public Double getTaxableAmount() {
+  public java.lang.Double getTaxableAmount() {
     return TaxableAmount;
   }
 
@@ -236,7 +236,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'TaxableAmount' field.
    * @param value the value to set.
    */
-  public void setTaxableAmount(Double value) {
+  public void setTaxableAmount(java.lang.Double value) {
     this.TaxableAmount = value;
   }
 
@@ -244,7 +244,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'CGST' field.
    * @return The value of the 'CGST' field.
    */
-  public Double getCGST() {
+  public java.lang.Double getCGST() {
     return CGST;
   }
 
@@ -252,7 +252,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'CGST' field.
    * @param value the value to set.
    */
-  public void setCGST(Double value) {
+  public void setCGST(java.lang.Double value) {
     this.CGST = value;
   }
 
@@ -260,7 +260,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'SGST' field.
    * @return The value of the 'SGST' field.
    */
-  public Double getSGST() {
+  public java.lang.Double getSGST() {
     return SGST;
   }
 
@@ -268,7 +268,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'SGST' field.
    * @param value the value to set.
    */
-  public void setSGST(Double value) {
+  public void setSGST(java.lang.Double value) {
     this.SGST = value;
   }
 
@@ -276,7 +276,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'CESS' field.
    * @return The value of the 'CESS' field.
    */
-  public Double getCESS() {
+  public java.lang.Double getCESS() {
     return CESS;
   }
 
@@ -284,7 +284,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'CESS' field.
    * @param value the value to set.
    */
-  public void setCESS(Double value) {
+  public void setCESS(java.lang.Double value) {
     this.CESS = value;
   }
 
@@ -292,7 +292,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'StoreID' field.
    * @return The value of the 'StoreID' field.
    */
-  public CharSequence getStoreID() {
+  public java.lang.CharSequence getStoreID() {
     return StoreID;
   }
 
@@ -300,7 +300,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'StoreID' field.
    * @param value the value to set.
    */
-  public void setStoreID(CharSequence value) {
+  public void setStoreID(java.lang.CharSequence value) {
     this.StoreID = value;
   }
 
@@ -308,7 +308,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'PosID' field.
    * @return The value of the 'PosID' field.
    */
-  public CharSequence getPosID() {
+  public java.lang.CharSequence getPosID() {
     return PosID;
   }
 
@@ -316,7 +316,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'PosID' field.
    * @param value the value to set.
    */
-  public void setPosID(CharSequence value) {
+  public void setPosID(java.lang.CharSequence value) {
     this.PosID = value;
   }
 
@@ -324,7 +324,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'CashierID' field.
    * @return The value of the 'CashierID' field.
    */
-  public CharSequence getCashierID() {
+  public java.lang.CharSequence getCashierID() {
     return CashierID;
   }
 
@@ -332,7 +332,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'CashierID' field.
    * @param value the value to set.
    */
-  public void setCashierID(CharSequence value) {
+  public void setCashierID(java.lang.CharSequence value) {
     this.CashierID = value;
   }
 
@@ -340,7 +340,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'CustomerType' field.
    * @return The value of the 'CustomerType' field.
    */
-  public CharSequence getCustomerType() {
+  public java.lang.CharSequence getCustomerType() {
     return CustomerType;
   }
 
@@ -348,7 +348,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'CustomerType' field.
    * @param value the value to set.
    */
-  public void setCustomerType(CharSequence value) {
+  public void setCustomerType(java.lang.CharSequence value) {
     this.CustomerType = value;
   }
 
@@ -356,7 +356,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Gets the value of the 'DeliveryType' field.
    * @return The value of the 'DeliveryType' field.
    */
-  public CharSequence getDeliveryType() {
+  public java.lang.CharSequence getDeliveryType() {
     return DeliveryType;
   }
 
@@ -364,7 +364,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'DeliveryType' field.
    * @param value the value to set.
    */
-  public void setDeliveryType(CharSequence value) {
+  public void setDeliveryType(java.lang.CharSequence value) {
     this.DeliveryType = value;
   }
 
@@ -404,8 +404,8 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * Creates a new PosInvoice RecordBuilder.
    * @return A new PosInvoice RecordBuilder
    */
-  public static Builder newBuilder() {
-    return new Builder();
+  public static com.vengat.tuts.types.PosInvoice.Builder newBuilder() {
+    return new com.vengat.tuts.types.PosInvoice.Builder();
   }
 
   /**
@@ -413,8 +413,8 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * @param other The existing builder to copy.
    * @return A new PosInvoice RecordBuilder
    */
-  public static Builder newBuilder(Builder other) {
-    return new Builder(other);
+  public static com.vengat.tuts.types.PosInvoice.Builder newBuilder(com.vengat.tuts.types.PosInvoice.Builder other) {
+    return new com.vengat.tuts.types.PosInvoice.Builder(other);
   }
 
   /**
@@ -422,8 +422,8 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
    * @param other The existing instance to copy.
    * @return A new PosInvoice RecordBuilder
    */
-  public static Builder newBuilder(PosInvoice other) {
-    return new Builder(other);
+  public static com.vengat.tuts.types.PosInvoice.Builder newBuilder(com.vengat.tuts.types.PosInvoice other) {
+    return new com.vengat.tuts.types.PosInvoice.Builder(other);
   }
 
   /**
@@ -432,21 +432,21 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
   public static class Builder extends org.apache.avro.specific.SpecificRecordBuilderBase<PosInvoice>
     implements org.apache.avro.data.RecordBuilder<PosInvoice> {
 
-    private CharSequence InvoiceNumber;
-    private Long CreatedTime;
-    private Double CustomerCardNo;
-    private Double TotalAmount;
-    private Integer NumberOfItems;
-    private CharSequence PaymentMethod;
-    private Double TaxableAmount;
-    private Double CGST;
-    private Double SGST;
-    private Double CESS;
-    private CharSequence StoreID;
-    private CharSequence PosID;
-    private CharSequence CashierID;
-    private CharSequence CustomerType;
-    private CharSequence DeliveryType;
+    private java.lang.CharSequence InvoiceNumber;
+    private java.lang.Long CreatedTime;
+    private java.lang.Double CustomerCardNo;
+    private java.lang.Double TotalAmount;
+    private java.lang.Integer NumberOfItems;
+    private java.lang.CharSequence PaymentMethod;
+    private java.lang.Double TaxableAmount;
+    private java.lang.Double CGST;
+    private java.lang.Double SGST;
+    private java.lang.Double CESS;
+    private java.lang.CharSequence StoreID;
+    private java.lang.CharSequence PosID;
+    private java.lang.CharSequence CashierID;
+    private java.lang.CharSequence CustomerType;
+    private java.lang.CharSequence DeliveryType;
     private com.vengat.tuts.types.DeliveryAddress DeliveryAddress;
     private com.vengat.tuts.types.DeliveryAddress.Builder DeliveryAddressBuilder;
     private java.util.List<com.vengat.tuts.types.LineItem> InvoiceLineItems;
@@ -460,7 +460,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
      * Creates a Builder by copying an existing Builder.
      * @param other The existing Builder to copy.
      */
-    private Builder(Builder other) {
+    private Builder(com.vengat.tuts.types.PosInvoice.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.InvoiceNumber)) {
         this.InvoiceNumber = data().deepCopy(fields()[0].schema(), other.InvoiceNumber);
@@ -539,7 +539,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
      * Creates a Builder by copying an existing PosInvoice instance
      * @param other The existing instance to copy.
      */
-    private Builder(PosInvoice other) {
+    private Builder(com.vengat.tuts.types.PosInvoice other) {
             super(SCHEMA$);
       if (isValidValue(fields()[0], other.InvoiceNumber)) {
         this.InvoiceNumber = data().deepCopy(fields()[0].schema(), other.InvoiceNumber);
@@ -616,7 +616,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'InvoiceNumber' field.
       * @return The value.
       */
-    public CharSequence getInvoiceNumber() {
+    public java.lang.CharSequence getInvoiceNumber() {
       return InvoiceNumber;
     }
 
@@ -625,7 +625,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'InvoiceNumber'.
       * @return This builder.
       */
-    public Builder setInvoiceNumber(CharSequence value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setInvoiceNumber(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.InvoiceNumber = value;
       fieldSetFlags()[0] = true;
@@ -645,7 +645,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'InvoiceNumber' field.
       * @return This builder.
       */
-    public Builder clearInvoiceNumber() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearInvoiceNumber() {
       InvoiceNumber = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -655,7 +655,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'CreatedTime' field.
       * @return The value.
       */
-    public Long getCreatedTime() {
+    public java.lang.Long getCreatedTime() {
       return CreatedTime;
     }
 
@@ -664,7 +664,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'CreatedTime'.
       * @return This builder.
       */
-    public Builder setCreatedTime(Long value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setCreatedTime(java.lang.Long value) {
       validate(fields()[1], value);
       this.CreatedTime = value;
       fieldSetFlags()[1] = true;
@@ -684,7 +684,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'CreatedTime' field.
       * @return This builder.
       */
-    public Builder clearCreatedTime() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearCreatedTime() {
       CreatedTime = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -694,7 +694,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'CustomerCardNo' field.
       * @return The value.
       */
-    public Double getCustomerCardNo() {
+    public java.lang.Double getCustomerCardNo() {
       return CustomerCardNo;
     }
 
@@ -703,7 +703,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'CustomerCardNo'.
       * @return This builder.
       */
-    public Builder setCustomerCardNo(Double value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setCustomerCardNo(java.lang.Double value) {
       validate(fields()[2], value);
       this.CustomerCardNo = value;
       fieldSetFlags()[2] = true;
@@ -723,7 +723,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'CustomerCardNo' field.
       * @return This builder.
       */
-    public Builder clearCustomerCardNo() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearCustomerCardNo() {
       CustomerCardNo = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -733,7 +733,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'TotalAmount' field.
       * @return The value.
       */
-    public Double getTotalAmount() {
+    public java.lang.Double getTotalAmount() {
       return TotalAmount;
     }
 
@@ -742,7 +742,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'TotalAmount'.
       * @return This builder.
       */
-    public Builder setTotalAmount(Double value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setTotalAmount(java.lang.Double value) {
       validate(fields()[3], value);
       this.TotalAmount = value;
       fieldSetFlags()[3] = true;
@@ -762,7 +762,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'TotalAmount' field.
       * @return This builder.
       */
-    public Builder clearTotalAmount() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearTotalAmount() {
       TotalAmount = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -772,7 +772,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'NumberOfItems' field.
       * @return The value.
       */
-    public Integer getNumberOfItems() {
+    public java.lang.Integer getNumberOfItems() {
       return NumberOfItems;
     }
 
@@ -781,7 +781,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'NumberOfItems'.
       * @return This builder.
       */
-    public Builder setNumberOfItems(Integer value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setNumberOfItems(java.lang.Integer value) {
       validate(fields()[4], value);
       this.NumberOfItems = value;
       fieldSetFlags()[4] = true;
@@ -801,7 +801,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'NumberOfItems' field.
       * @return This builder.
       */
-    public Builder clearNumberOfItems() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearNumberOfItems() {
       NumberOfItems = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -811,7 +811,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'PaymentMethod' field.
       * @return The value.
       */
-    public CharSequence getPaymentMethod() {
+    public java.lang.CharSequence getPaymentMethod() {
       return PaymentMethod;
     }
 
@@ -820,7 +820,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'PaymentMethod'.
       * @return This builder.
       */
-    public Builder setPaymentMethod(CharSequence value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setPaymentMethod(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.PaymentMethod = value;
       fieldSetFlags()[5] = true;
@@ -840,7 +840,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'PaymentMethod' field.
       * @return This builder.
       */
-    public Builder clearPaymentMethod() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearPaymentMethod() {
       PaymentMethod = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -850,7 +850,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'TaxableAmount' field.
       * @return The value.
       */
-    public Double getTaxableAmount() {
+    public java.lang.Double getTaxableAmount() {
       return TaxableAmount;
     }
 
@@ -859,7 +859,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'TaxableAmount'.
       * @return This builder.
       */
-    public Builder setTaxableAmount(Double value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setTaxableAmount(java.lang.Double value) {
       validate(fields()[6], value);
       this.TaxableAmount = value;
       fieldSetFlags()[6] = true;
@@ -879,7 +879,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'TaxableAmount' field.
       * @return This builder.
       */
-    public Builder clearTaxableAmount() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearTaxableAmount() {
       TaxableAmount = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -889,7 +889,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'CGST' field.
       * @return The value.
       */
-    public Double getCGST() {
+    public java.lang.Double getCGST() {
       return CGST;
     }
 
@@ -898,7 +898,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'CGST'.
       * @return This builder.
       */
-    public Builder setCGST(Double value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setCGST(java.lang.Double value) {
       validate(fields()[7], value);
       this.CGST = value;
       fieldSetFlags()[7] = true;
@@ -918,7 +918,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'CGST' field.
       * @return This builder.
       */
-    public Builder clearCGST() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearCGST() {
       CGST = null;
       fieldSetFlags()[7] = false;
       return this;
@@ -928,7 +928,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'SGST' field.
       * @return The value.
       */
-    public Double getSGST() {
+    public java.lang.Double getSGST() {
       return SGST;
     }
 
@@ -937,7 +937,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'SGST'.
       * @return This builder.
       */
-    public Builder setSGST(Double value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setSGST(java.lang.Double value) {
       validate(fields()[8], value);
       this.SGST = value;
       fieldSetFlags()[8] = true;
@@ -957,7 +957,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'SGST' field.
       * @return This builder.
       */
-    public Builder clearSGST() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearSGST() {
       SGST = null;
       fieldSetFlags()[8] = false;
       return this;
@@ -967,7 +967,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'CESS' field.
       * @return The value.
       */
-    public Double getCESS() {
+    public java.lang.Double getCESS() {
       return CESS;
     }
 
@@ -976,7 +976,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'CESS'.
       * @return This builder.
       */
-    public Builder setCESS(Double value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setCESS(java.lang.Double value) {
       validate(fields()[9], value);
       this.CESS = value;
       fieldSetFlags()[9] = true;
@@ -996,7 +996,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'CESS' field.
       * @return This builder.
       */
-    public Builder clearCESS() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearCESS() {
       CESS = null;
       fieldSetFlags()[9] = false;
       return this;
@@ -1006,7 +1006,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'StoreID' field.
       * @return The value.
       */
-    public CharSequence getStoreID() {
+    public java.lang.CharSequence getStoreID() {
       return StoreID;
     }
 
@@ -1015,7 +1015,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'StoreID'.
       * @return This builder.
       */
-    public Builder setStoreID(CharSequence value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setStoreID(java.lang.CharSequence value) {
       validate(fields()[10], value);
       this.StoreID = value;
       fieldSetFlags()[10] = true;
@@ -1035,7 +1035,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'StoreID' field.
       * @return This builder.
       */
-    public Builder clearStoreID() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearStoreID() {
       StoreID = null;
       fieldSetFlags()[10] = false;
       return this;
@@ -1045,7 +1045,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'PosID' field.
       * @return The value.
       */
-    public CharSequence getPosID() {
+    public java.lang.CharSequence getPosID() {
       return PosID;
     }
 
@@ -1054,7 +1054,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'PosID'.
       * @return This builder.
       */
-    public Builder setPosID(CharSequence value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setPosID(java.lang.CharSequence value) {
       validate(fields()[11], value);
       this.PosID = value;
       fieldSetFlags()[11] = true;
@@ -1074,7 +1074,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'PosID' field.
       * @return This builder.
       */
-    public Builder clearPosID() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearPosID() {
       PosID = null;
       fieldSetFlags()[11] = false;
       return this;
@@ -1084,7 +1084,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'CashierID' field.
       * @return The value.
       */
-    public CharSequence getCashierID() {
+    public java.lang.CharSequence getCashierID() {
       return CashierID;
     }
 
@@ -1093,7 +1093,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'CashierID'.
       * @return This builder.
       */
-    public Builder setCashierID(CharSequence value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setCashierID(java.lang.CharSequence value) {
       validate(fields()[12], value);
       this.CashierID = value;
       fieldSetFlags()[12] = true;
@@ -1113,7 +1113,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'CashierID' field.
       * @return This builder.
       */
-    public Builder clearCashierID() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearCashierID() {
       CashierID = null;
       fieldSetFlags()[12] = false;
       return this;
@@ -1123,7 +1123,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'CustomerType' field.
       * @return The value.
       */
-    public CharSequence getCustomerType() {
+    public java.lang.CharSequence getCustomerType() {
       return CustomerType;
     }
 
@@ -1132,7 +1132,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'CustomerType'.
       * @return This builder.
       */
-    public Builder setCustomerType(CharSequence value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setCustomerType(java.lang.CharSequence value) {
       validate(fields()[13], value);
       this.CustomerType = value;
       fieldSetFlags()[13] = true;
@@ -1152,7 +1152,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'CustomerType' field.
       * @return This builder.
       */
-    public Builder clearCustomerType() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearCustomerType() {
       CustomerType = null;
       fieldSetFlags()[13] = false;
       return this;
@@ -1162,7 +1162,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Gets the value of the 'DeliveryType' field.
       * @return The value.
       */
-    public CharSequence getDeliveryType() {
+    public java.lang.CharSequence getDeliveryType() {
       return DeliveryType;
     }
 
@@ -1171,7 +1171,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'DeliveryType'.
       * @return This builder.
       */
-    public Builder setDeliveryType(CharSequence value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setDeliveryType(java.lang.CharSequence value) {
       validate(fields()[14], value);
       this.DeliveryType = value;
       fieldSetFlags()[14] = true;
@@ -1191,7 +1191,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'DeliveryType' field.
       * @return This builder.
       */
-    public Builder clearDeliveryType() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearDeliveryType() {
       DeliveryType = null;
       fieldSetFlags()[14] = false;
       return this;
@@ -1210,7 +1210,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'DeliveryAddress'.
       * @return This builder.
       */
-    public Builder setDeliveryAddress(com.vengat.tuts.types.DeliveryAddress value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setDeliveryAddress(com.vengat.tuts.types.DeliveryAddress value) {
       validate(fields()[15], value);
       this.DeliveryAddressBuilder = null;
       this.DeliveryAddress = value;
@@ -1246,7 +1246,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
      * @param value The builder instance that must be set.
      * @return This builder.
      */
-    public Builder setDeliveryAddressBuilder(com.vengat.tuts.types.DeliveryAddress.Builder value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setDeliveryAddressBuilder(com.vengat.tuts.types.DeliveryAddress.Builder value) {
       clearDeliveryAddress();
       DeliveryAddressBuilder = value;
       return this;
@@ -1264,7 +1264,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'DeliveryAddress' field.
       * @return This builder.
       */
-    public Builder clearDeliveryAddress() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearDeliveryAddress() {
       DeliveryAddress = null;
       DeliveryAddressBuilder = null;
       fieldSetFlags()[15] = false;
@@ -1284,7 +1284,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * @param value The value of 'InvoiceLineItems'.
       * @return This builder.
       */
-    public Builder setInvoiceLineItems(java.util.List<com.vengat.tuts.types.LineItem> value) {
+    public com.vengat.tuts.types.PosInvoice.Builder setInvoiceLineItems(java.util.List<com.vengat.tuts.types.LineItem> value) {
       validate(fields()[16], value);
       this.InvoiceLineItems = value;
       fieldSetFlags()[16] = true;
@@ -1304,7 +1304,7 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
       * Clears the value of the 'InvoiceLineItems' field.
       * @return This builder.
       */
-    public Builder clearInvoiceLineItems() {
+    public com.vengat.tuts.types.PosInvoice.Builder clearInvoiceLineItems() {
       InvoiceLineItems = null;
       fieldSetFlags()[16] = false;
       return this;
@@ -1314,21 +1314,21 @@ public class PosInvoice extends org.apache.avro.specific.SpecificRecordBase impl
     public PosInvoice build() {
       try {
         PosInvoice record = new PosInvoice();
-        record.InvoiceNumber = fieldSetFlags()[0] ? this.InvoiceNumber : (CharSequence) defaultValue(fields()[0]);
-        record.CreatedTime = fieldSetFlags()[1] ? this.CreatedTime : (Long) defaultValue(fields()[1]);
-        record.CustomerCardNo = fieldSetFlags()[2] ? this.CustomerCardNo : (Double) defaultValue(fields()[2]);
-        record.TotalAmount = fieldSetFlags()[3] ? this.TotalAmount : (Double) defaultValue(fields()[3]);
-        record.NumberOfItems = fieldSetFlags()[4] ? this.NumberOfItems : (Integer) defaultValue(fields()[4]);
-        record.PaymentMethod = fieldSetFlags()[5] ? this.PaymentMethod : (CharSequence) defaultValue(fields()[5]);
-        record.TaxableAmount = fieldSetFlags()[6] ? this.TaxableAmount : (Double) defaultValue(fields()[6]);
-        record.CGST = fieldSetFlags()[7] ? this.CGST : (Double) defaultValue(fields()[7]);
-        record.SGST = fieldSetFlags()[8] ? this.SGST : (Double) defaultValue(fields()[8]);
-        record.CESS = fieldSetFlags()[9] ? this.CESS : (Double) defaultValue(fields()[9]);
-        record.StoreID = fieldSetFlags()[10] ? this.StoreID : (CharSequence) defaultValue(fields()[10]);
-        record.PosID = fieldSetFlags()[11] ? this.PosID : (CharSequence) defaultValue(fields()[11]);
-        record.CashierID = fieldSetFlags()[12] ? this.CashierID : (CharSequence) defaultValue(fields()[12]);
-        record.CustomerType = fieldSetFlags()[13] ? this.CustomerType : (CharSequence) defaultValue(fields()[13]);
-        record.DeliveryType = fieldSetFlags()[14] ? this.DeliveryType : (CharSequence) defaultValue(fields()[14]);
+        record.InvoiceNumber = fieldSetFlags()[0] ? this.InvoiceNumber : (java.lang.CharSequence) defaultValue(fields()[0]);
+        record.CreatedTime = fieldSetFlags()[1] ? this.CreatedTime : (java.lang.Long) defaultValue(fields()[1]);
+        record.CustomerCardNo = fieldSetFlags()[2] ? this.CustomerCardNo : (java.lang.Double) defaultValue(fields()[2]);
+        record.TotalAmount = fieldSetFlags()[3] ? this.TotalAmount : (java.lang.Double) defaultValue(fields()[3]);
+        record.NumberOfItems = fieldSetFlags()[4] ? this.NumberOfItems : (java.lang.Integer) defaultValue(fields()[4]);
+        record.PaymentMethod = fieldSetFlags()[5] ? this.PaymentMethod : (java.lang.CharSequence) defaultValue(fields()[5]);
+        record.TaxableAmount = fieldSetFlags()[6] ? this.TaxableAmount : (java.lang.Double) defaultValue(fields()[6]);
+        record.CGST = fieldSetFlags()[7] ? this.CGST : (java.lang.Double) defaultValue(fields()[7]);
+        record.SGST = fieldSetFlags()[8] ? this.SGST : (java.lang.Double) defaultValue(fields()[8]);
+        record.CESS = fieldSetFlags()[9] ? this.CESS : (java.lang.Double) defaultValue(fields()[9]);
+        record.StoreID = fieldSetFlags()[10] ? this.StoreID : (java.lang.CharSequence) defaultValue(fields()[10]);
+        record.PosID = fieldSetFlags()[11] ? this.PosID : (java.lang.CharSequence) defaultValue(fields()[11]);
+        record.CashierID = fieldSetFlags()[12] ? this.CashierID : (java.lang.CharSequence) defaultValue(fields()[12]);
+        record.CustomerType = fieldSetFlags()[13] ? this.CustomerType : (java.lang.CharSequence) defaultValue(fields()[13]);
+        record.DeliveryType = fieldSetFlags()[14] ? this.DeliveryType : (java.lang.CharSequence) defaultValue(fields()[14]);
         if (DeliveryAddressBuilder != null) {
           record.DeliveryAddress = this.DeliveryAddressBuilder.build();
         } else {

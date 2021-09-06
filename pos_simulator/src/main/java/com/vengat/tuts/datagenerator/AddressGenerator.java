@@ -19,6 +19,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vengat.tuts.types.DeliveryAddress;
 
 
+
 import java.io.File;
 import java.util.Random;
 
@@ -48,7 +49,7 @@ class AddressGenerator {
         }
     }
 
-    DeliveryAddress getNextAddress() {
+    public DeliveryAddress getNextAddress() {
         return addresses[getIndex()];
     }
 
