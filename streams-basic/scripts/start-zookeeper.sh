@@ -1,0 +1,1 @@
+sh  /Users/vengatramanan/kafka_2.13-2.8.0/bin/zookeeper-server-start.sh/Users/vengatramanan/kafka_2.13-2.8.0/config/zookeeper.properties
