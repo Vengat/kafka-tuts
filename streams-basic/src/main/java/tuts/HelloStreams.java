@@ -6,6 +6,7 @@ import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.StreamsConfig;
 import org.apache.kafka.streams.Topology;
 import org.apache.kafka.streams.kstream.KStream;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import tuts.commons.AppConfig;
 
@@ -13,7 +14,7 @@ import java.util.Properties;
 
 public class HelloStreams {
 
-    private static final Logger logger =
+    private static final Logger logger = LogManager.getLogger();
 
     public static void main(String[] args) {
 
